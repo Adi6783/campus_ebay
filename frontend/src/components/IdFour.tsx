@@ -43,19 +43,20 @@ export const IdFour = () => {
 
           <div className="col-span-4">
             <div className="text-slate-600 text-lg">Click below to view profile:</div>
-            <div className="flex items-center">
-            <Link to={"/prof4"}>
-              <div className="pr-4 flex flex-col justify-center">
-                <Avatar size={"big"} name="Shivam Shandi" />
-              </div>
-              <div>
-                <div className="text-xl font-bold">Shivam Shandi</div>
-                <div className="pt-2 text-slate-500">
-                Indulge in luxury, only from the best.
-                </div>
-              </div>
-              </Link>
-            </div>
+                              <div className="max-w-sm mx-auto bg-white shadow-md rounded-lg overflow-hidden">
+                    <Link to={"/prof4"} className="flex items-center p-4">
+                      <div className="pr-4 flex flex-col justify-center">
+                        <Avatar size={"big"} name="Shivam Shandi" />
+                      </div>
+                      <div>
+                        <div className="text-xl font-bold">Shivam Shandi</div>
+                        <div className="pt-2 text-slate-500">
+                          Indulge in luxury, only from the best
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+
             <div className="mt-4">
               <form className="w-full px-5">
                 <div className="bg-gray-100 dark:bg-gray-800 rounded-t-lg p-3">
@@ -143,20 +144,21 @@ export const IdFour = () => {
                     placeholder="Your message..."
                   ></textarea>
                   <button
-                    type="submit"
-                    className="inline-flex justify-center p-2 text-blue-600 rounded-full cursor-pointer hover:bg-blue-100 dark:text-blue-500 dark:hover:bg-gray-600"
-                  >
-                    <svg
-                      className="w-5 h-5 rotate-90 rtl:-rotate-90"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="currentColor"
-                      viewBox="0 0 18 20"
+                        type="button"
+                        onClick={(e) => e.preventDefault()}
+                        className="inline-flex justify-center p-2 text-blue-600 rounded-full cursor-pointer hover:bg-blue-100 dark:text-blue-500 dark:hover:bg-gray-600"
                     >
-                      <path d="m17.914 18.594-8-18a1 1 0 0 0-1.828 0l-8 18a1 1 0 0 0 1.157 1.376L8 18.281V9a1 1 0 0 1 2 0v9.281l6.758 1.689a1 1 0 0 0 1.156-1.376Z" />
-                    </svg>
-                    <span className="sr-only">Send message</span>
-                  </button>
+                        <svg
+                            className="w-5 h-5 rotate-90 rtl:-rotate-90"
+                            aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor"
+                            viewBox="0 0 18 20"
+                        >
+                            <path d="m17.914 18.594-8-18a1 1 0 0 0-1.828 0l-8 18a1 1 0 0 0 1.157 1.376L8 18.281V9a1 1 0 0 1 2 0v9.281l6.758 1.689a1 1 0 0 0 1.156-1.376Z" />
+                        </svg>
+                        <span className="sr-only">Send message</span>
+                    </button>
                 </div>
               </form>
             </div>

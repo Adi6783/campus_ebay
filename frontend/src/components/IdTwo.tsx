@@ -31,6 +31,7 @@ export const IdTwo = () => {
             <div className="text-5xl font-extrabold">TA set(Drafter,scale,etc)</div>
             <div>Rs: 300</div>
             <div className="text-slate-500 pt-2">posted on 18th May 2024</div>
+            
             <div className="pt-4">
               My Engg drawing set is in pretty good condition, would like to sell it. It has
               beared close to zero damage. The set contains a selection of high-quality pencils or lead holders, ranging from 2H to 2B grades, providing a spectrum of hardness suitable for different drawing needs. It includes a durable plastic or metal ruler, often 12 inches in length, marked with both metric and imperial units for accurate measurements.
@@ -44,19 +45,20 @@ export const IdTwo = () => {
 
           <div className="col-span-4">
             <div className="text-slate-600 text-lg">Click below to view profile:</div>
-            <div className="flex items-center">
-              <Link to={"/prof2"}>
-              <div className="pr-4 flex flex-col justify-center">
-                <Avatar size={"big"} name="Aditya Mane" />
-              </div>
-              <div>
-                <div className="text-xl font-bold">Akshat Sharma</div>
-                <div className="pt-2 text-slate-500">
-                Be a satified customers today!
-                </div>
-              </div>
-              </Link>
-            </div>
+                                  <div className="max-w-sm mx-auto bg-white shadow-md rounded-lg overflow-hidden">
+                        <Link to={"/prof2"} className="flex items-center p-4">
+                          <div className="pr-4 flex flex-col justify-center">
+                            <Avatar size={"big"} name="Akshat Sharma" />
+                          </div>
+                          <div>
+                            <div className="text-xl font-bold">Akshat Sharma</div>
+                            <div className="pt-2 text-slate-500">
+                              Be a satisfied customer today
+                            </div>
+                          </div>
+                        </Link>
+                      </div>
+
             <div className="mt-4">
               <form className="w-full px-5">
                 <div className="bg-gray-100 dark:bg-gray-800 rounded-t-lg p-3">
@@ -144,20 +146,21 @@ export const IdTwo = () => {
                     placeholder="Your message..."
                   ></textarea>
                   <button
-                    type="submit"
-                    className="inline-flex justify-center p-2 text-blue-600 rounded-full cursor-pointer hover:bg-blue-100 dark:text-blue-500 dark:hover:bg-gray-600"
-                  >
-                    <svg
-                      className="w-5 h-5 rotate-90 rtl:-rotate-90"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="currentColor"
-                      viewBox="0 0 18 20"
+                        type="button"
+                        onClick={(e) => e.preventDefault()}
+                        className="inline-flex justify-center p-2 text-blue-600 rounded-full cursor-pointer hover:bg-blue-100 dark:text-blue-500 dark:hover:bg-gray-600"
                     >
-                      <path d="m17.914 18.594-8-18a1 1 0 0 0-1.828 0l-8 18a1 1 0 0 0 1.157 1.376L8 18.281V9a1 1 0 0 1 2 0v9.281l6.758 1.689a1 1 0 0 0 1.156-1.376Z" />
-                    </svg>
-                    <span className="sr-only">Send message</span>
-                  </button>
+                        <svg
+                            className="w-5 h-5 rotate-90 rtl:-rotate-90"
+                            aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor"
+                            viewBox="0 0 18 20"
+                        >
+                            <path d="m17.914 18.594-8-18a1 1 0 0 0-1.828 0l-8 18a1 1 0 0 0 1.157 1.376L8 18.281V9a1 1 0 0 1 2 0v9.281l6.758 1.689a1 1 0 0 0 1.156-1.376Z" />
+                        </svg>
+                        <span className="sr-only">Send message</span>
+                    </button>
                 </div>
               </form>
             </div>

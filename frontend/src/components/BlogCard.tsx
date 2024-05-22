@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 
 export interface BlogCardProps {
     authorName: string;
@@ -11,7 +11,7 @@ export interface BlogCardProps {
 }
 
 export const BlogCard = ({
-    id,
+    
     authorName,
     title,
     content,

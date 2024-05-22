@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Appbar } from "../components/Appbar"
 import { BlogCard } from "../components/BlogCard"
 import { BlogSkeleton } from "../components/BlogSkeleton";
-import { useBlogs } from "../hooks";
+
 import { useState } from "react";
 import img1 from "../images/aircooler1.webp";
 import img2 from "../images/drafter1.jpg";
