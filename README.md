@@ -8,3 +8,4 @@ https://campusebayaditya.netlify.app/
 
 
 ![camp1](https://github.com/Adi6783/campus_ebay/assets/165944437/b7ab95f4-f9a3-4114-bad2-00b7b1d74f86)
+![camp2](https://github.com/Adi6783/campus_ebay/assets/165944437/70f4a724-8233-4e79-89b2-2bb55063b63d)
