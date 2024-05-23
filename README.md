@@ -24,5 +24,7 @@ https://campusebayaditya.netlify.app/
 ![camp7](https://github.com/Adi6783/campus_ebay/assets/165944437/769970c7-b9d7-4d58-aada-1f7e9de7575c)
 8.If you go back and click AI chat-bot button, you would reach here. 
 ![camp8](https://github.com/Adi6783/campus_ebay/assets/165944437/78a93771-c28f-41c1-8ec7-b69877fedba2)
+9.You can click the New button in the Appbar to publish your own product.
 ![camp9](https://github.com/Adi6783/campus_ebay/assets/165944437/888bb6e6-3c28-41c7-9388-8e75e7b9384e)
 ![camp10](https://github.com/Adi6783/campus_ebay/assets/165944437/e852e64e-82b2-4629-99c8-e36097c3e50b)
+10.Clicking on the logout button would take you back to the Signup page.
