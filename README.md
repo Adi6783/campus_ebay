@@ -12,11 +12,13 @@ https://campusebayaditya.netlify.app/
 ![camp1](https://github.com/Adi6783/campus_ebay/assets/165944437/b7ab95f4-f9a3-4114-bad2-00b7b1d74f86)
 2.This is the Signin page.
 ![camp2](https://github.com/Adi6783/campus_ebay/assets/165944437/70f4a724-8233-4e79-89b2-2bb55063b63d)
-3.This is the list of all the products, you can see a functional appbar, which has a search button. You may click any of the product in there.
+3.This is the list of all the products, you can see a functional appbar, which has a search bar. You may click any of the product in there.
 ![camp3](https://github.com/Adi6783/campus_ebay/assets/165944437/947e8191-e41b-4caa-b271-3ef6876184c9)
-4.Here you will be displayed detailed data of the product.
+4.Here you will be displayed detailed data of the product. The top left Ebay@IIT-K button would bring you back on the lists.
 ![camp4](https://github.com/Adi6783/campus_ebay/assets/165944437/fee58232-b7d1-4959-a0d9-e38898fe8e23)
+5.A chat area is also provided to make a deal.
 ![camp5](https://github.com/Adi6783/campus_ebay/assets/165944437/1d392c66-3319-4c4f-aec7-36ce0e818623)
+6.Once you click the Profile card, you would reach here.
 ![camp6](https://github.com/Adi6783/campus_ebay/assets/165944437/03b32790-cf14-4879-9f7f-9ae2ee96e27c)
 ![camp7](https://github.com/Adi6783/campus_ebay/assets/165944437/769970c7-b9d7-4d58-aada-1f7e9de7575c)
 ![camp8](https://github.com/Adi6783/campus_ebay/assets/165944437/78a93771-c28f-41c1-8ec7-b69877fedba2)
