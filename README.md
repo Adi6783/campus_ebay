@@ -20,7 +20,9 @@ https://campusebayaditya.netlify.app/
 ![camp5](https://github.com/Adi6783/campus_ebay/assets/165944437/1d392c66-3319-4c4f-aec7-36ce0e818623)
 6.Once you click the Profile card, you would reach here.
 ![camp6](https://github.com/Adi6783/campus_ebay/assets/165944437/03b32790-cf14-4879-9f7f-9ae2ee96e27c)
+7.If you go back and click accept deal button you would reach here. You may enter your bank account details here
 ![camp7](https://github.com/Adi6783/campus_ebay/assets/165944437/769970c7-b9d7-4d58-aada-1f7e9de7575c)
+8.If you go back and click AI chat-bot button, you would reach here. 
 ![camp8](https://github.com/Adi6783/campus_ebay/assets/165944437/78a93771-c28f-41c1-8ec7-b69877fedba2)
 ![camp9](https://github.com/Adi6783/campus_ebay/assets/165944437/888bb6e6-3c28-41c7-9388-8e75e7b9384e)
 ![camp10](https://github.com/Adi6783/campus_ebay/assets/165944437/e852e64e-82b2-4629-99c8-e36097c3e50b)
